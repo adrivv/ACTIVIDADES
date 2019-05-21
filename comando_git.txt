@@ -1,0 +1,1000 @@
+ 1049  sudo fdisk -l
+ 1050  clear
+ 1051  sleep 1000
+ 1052  sleep 1222 &
+ 1053  sleep 121212 &
+ 1054  jobs
+ 1055  fg %3
+ 1056  jobs
+ 1057  ps -la
+ 1058  nice -n 5 4148
+ 1059  nice -n 5 sleep 1222 
+ 1060  ps la
+ 1061  renice 8 4149
+ 1062  ps -le
+ 1063  ps -le | sort -k8
+ 1064  ps -le | sort -k8 -n -u 
+ 1065  ps -le | sort -k8 -n 
+ 1066  ps -le | sort -k8  
+ 1067  ps -le | sort -k8
+ 1068  ps -le | grep sleep
+ 1069  ps -le | grep sleep | sort -t ':' -k8 -n
+ 1070  ps -le | grep sleep | sort -t ':' -k8 
+ 1071  ps -le | grep sleep | sort -t ':' -k9
+ 1072  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f10
+ 1073  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f12
+ 1074  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f8
+ 1075  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f7
+ 1076  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f9
+ 1077  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f94
+ 1078  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f4
+ 1079  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f2
+ 1080  ps -le | grep sleep | sort -t ':' -k9 | cut -d ':' -f1
+ 1081  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f1
+ 1082  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f2
+ 1083  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f7
+ 1084  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f6
+ 1085  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f3
+ 1086  ps -le | grep sleep | sort -t ':' -k9 | cut -d ' ' -f4
+ 1087  clear
+ 1088  cat /etc/passwd > fichero1
+ 1089  ls
+ 1090  ls -la
+ 1091  clear
+ 1092  ls -l
+ 1093  sudo nano fichero1
+ 1094  echo adadasdsadadadasdadad >> fichero1
+ 1095  sudo nano fichero1
+ 1096  ls
+ 1097  sudo nano fichero1
+ 1098  rm fichero1
+ 1099  cd md1234
+ 1100  ls -l
+ 1101  sudo rmnod /dev/md123
+ 1102  sudo rmnod md123
+ 1103  clear
+ 1104  grep a$ /etc/passwd
+ 1105  grep ^a /etc/passwd
+ 1106  grep ^r /etc/passwd
+ 1107  sudo find . -size 0b -print
+ 1108  find . -size 0b -print
+ 1109  find . -size 0b -delete
+ 1110  clear
+ 1111  ls -la
+ 1112  clear
+ 1113  ls *l
+ 1114  ls -l
+ 1115  kill L
+ 1116  kill -L
+ 1117  kill -l
+ 1118  clear
+ 1119  kill -l
+ 1120  nice
+ 1121  nice -n -5 yes
+ 1122  jobs
+ 1123  fg %1
+ 1124  fg %2
+ 1125  fg %3
+ 1126  jobs
+ 1127  killall sleep
+ 1128  jobs
+ 1129  killall nice
+ 1130  kill %
+ 1131  kill %6
+ 1132  ps -la
+ 1133  kill -9 4310
+ 1134  kill -9 4168
+ 1135  clear
+ 1136  ps -la
+ 1137  kill -9 4309
+ 1138  sudo kill -9 4309
+ 1139  ps -la
+ 1140  crontab -e
+ 1141  crontab -l
+ 1142  crontab -e
+ 1143  crontab -l
+ 1144  clear
+ 1145  pwd
+ 1146  cd Documentos
+ 1147  cd $home
+ 1148  echo $shell
+ 1149  sudo echo $shell
+ 1150  clear
+ 1151  ps -le
+ 1152  ps -la
+ 1153  ps -a
+ 1154  clear
+ 1155  sleep 2000 &
+ 1156  sleep 2001 &
+ 1157  jobs
+ 1158  sudo nice -n 2 %1
+ 1159  sudo nice -n 2 sleep 2000
+ 1160  jobs
+ 1161  bg %1
+ 1162  bg %2
+ 1163  fg %1
+ 1164  jobs
+ 1165  sudo nice -n 15 sleep 2001 &
+ 1166  ps -la
+ 1167  kill -9 4836
+ 1168  sudo kill -9 4836
+ 1169  ps -la
+ 1170  jobs
+ 1171  ps -a
+ 1172  sudo kill -9 4828
+ 1173  ps -la
+ 1174  clear
+ 1175  sudo fdisk -l
+ 1176  clear
+ 1177  cd Documentos
+ 1178  ls
+ 1179  cd proyecto
+ 1180  ls
+ 1181  nano sh adri.sh
+ 1182  sudo fdisk -l | grep /dev
+ 1183  sudo mdadm --detail --scan
+ 1184  sudo mdadm --detail /dev/md12
+ 1185  fd -h
+ 1186  df -h
+ 1187  sudo fdisk /dev/sdb
+ 1188  sudo mdadm --stop /dev/md12
+ 1189  sudo mdadm --create --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1190  sudo rm -r /media/md12
+ 1191  sudo ls -l /media
+ 1192  sudo rm -r /media/sf_compartir
+ 1193  sudo rmdir -r /media/sf_compartir
+ 1194  sudo rmdir /media/sf_compartir
+ 1195  clear
+ 1196  sudo umount /dev/md12
+ 1197  sudo mdadm --stop /dev/md127
+ 1198  sudo mdadm --remove /dev/md127
+ 1199  clear
+ 1200  sudo mknod /dev/md12 b 9 0
+ 1201  ls -l /media
+ 1202  clear
+ 1203  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1204  sudo fdisk /dev/sdd
+ 1205  d
+ 1206  sudo fdisk /dev/sdd
+ 1207  sudo fdisk -l
+ 1208  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sde1 --spare-devices=1 /dev/sdf1
+ 1209  cat /proc/mdstat
+ 1210  sudo mkfs.ext4 /dev/md12
+ 1211  shutdown -r now
+ 1212  cat /proc/mdstat
+ 1213  df -h
+ 1214  sudo fdisk -l | grep /dev
+ 1215  cat /proc/mdstats
+ 1216  cat /proc/mdstat
+ 1217  sudo mdadm --stop /dev/md127
+ 1218  sudo mdadm --remove /dev/md127
+ 1219  cat /proc/mdstat
+ 1220  cat /etc/mdadm/mdadm.conf
+ 1221  clear
+ 1222  sudo umount /dev/md127
+ 1223  cat /etc/fstab
+ 1224  sudo nano /etc/fstab
+ 1225  sudo fdisk -l | grep /dev
+ 1226  sudo fdisk /sde
+ 1227  sudo fdisk /dev/sde
+ 1228  sudo fdisk /dev/sdd
+ 1229  sudo fdisk /dev/sdc
+ 1230  sudo fdisk /dev/sdb
+ 1231  sudo fdisk -l | grep /dev
+ 1232  clear
+ 1233  ls -l /media
+ 1234  sudo rmdir
+ 1235  ls -l /mnt
+ 1236  clear
+ 1237  sudo fdisk -l
+ 1238  shutdown -r now
+ 1239  sudo fdisk /dev/sdb
+ 1240  sudo fdisk /dev/sbc
+ 1241  sudo fdisk /dev/sdc
+ 1242  clear
+ 1243  sudo fdisk /dev/sdd
+ 1244  clear
+ 1245  sudo fdisk /dev/sde
+ 1246  clear
+ 1247  sudo mkdir -p /mnt/examen/{discoA,discoB,discoC}
+ 1248  ls -l /mnt/examen
+ 1249  sudo chown adrian:adrian /mnt/examen/{discoA,discoB,discoC}
+ 1250  ls -l /mnt/examen
+ 1251  sudo mkfs.ext4 /dev/sdb1
+ 1252  sudo mkfs.ext4 /dev/sde1
+ 1253  sudo mkfs.ext4 /dev/sde2
+ 1254  sudo mkfs.ext4 /dev/sde3
+ 1255  clear
+ 1256  fdisk -l |grep /dev/sde
+ 1257  sudo fdisk -l |grep /dev/sde
+ 1258  sudo mkfs.ext4 /dev/sde5
+ 1259  sudo mkfs.ext4 /dev/sde6
+ 1260  clear
+ 1261  sudo fdisk -l |grep /dev/sde
+ 1262  sudo nano /etc/fstab
+ 1263  sudo mount -a /dev/sde1
+ 1264  sudo mount -a /dev/sde5
+ 1265  sudo mount -a /dev/sde6
+ 1266  sudo umount /dev/sde6
+ 1267  sudo umount /dev/sde5
+ 1268  sudo umount /dev/sde1
+ 1269  clear
+ 1270  sudo fdisk /dev/sde
+ 1271  sudo fdisk -l | grep /dev/sde
+ 1272  clear
+ 1273  sudo shutdown -r now
+ 1274  sudo cat /proc/mdstat
+ 1275  sudo nano /etc/mdadm/mdadm.conf
+ 1276  sudo umount /dev/md127
+ 1277  sudo mdadm --detail /dev/md127
+ 1278  sudo mdadm --stop /dev/md127
+ 1279  sudo mdadm --detail /dev/md127
+ 1280  sudo mdadm --remove /dev/md127
+ 1281  sudo mdadm --detail **scan
+ 1282  sudo mdadm --detail --scan
+ 1283  clear
+ 1284  fd -h
+ 1285  df -h
+ 1286  cat /etc/fstab
+ 1287  clear
+ 1288  sudo fdisk -l
+ 1289  sudo fdisk -l | grep /dev
+ 1290  sudo fdisk /dev/sdb
+ 1291  sudo fdisk /dev/sdc
+ 1292  sudo fdisk /dev/sdd
+ 1293  sudo fdisk /dev/sde
+ 1294  clear
+ 1295  sudo fdisk /dev/sdb
+ 1296  sudo fdisk /dev/sdc
+ 1297  sudo fdisk /dev/sdd
+ 1298  sudo fdisk /dev/sde
+ 1299  clear
+ 1300  ls -l /media
+ 1301  clear
+ 1302  sudo mknod /dev/md12 b 9 0
+ 1303  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1304  cat /proc/mdstat
+ 1305  clear
+ 1306  sudo mdadm --detail /dev/md12
+ 1307  clear
+ 1308  cat /proc/mdstat
+ 1309  sudo mkfs.ext4 /dev/md12
+ 1310  sudo fdisk -l | grep /dev
+ 1311  clear
+ 1312  sudo nautilus
+ 1313  sudo apt-get update
+ 1314  sudo apt-get upgrate
+ 1315  sudo apt-get udgrate
+ 1316  sudo apt-get upgrade
+ 1317  sudo apt-get myAgilePomodoro
+ 1318  sudo apt-get Pomodoro
+ 1319  clear
+ 1320  sudo fdisk -l
+ 1321  clear
+ 1322  sudo fdisk /dev/sdb
+ 1323  sudo fdisk /dev/sdc
+ 1324  sudo fdisk /dev/sdd
+ 1325  sudo fdisk /dev/sde
+ 1326  clear
+ 1327  sudo mknod /dev/md12
+ 1328  clear 
+ 1329  sudo mknod /dev/md12 b 9 0
+ 1330  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1331  cat /proc/mdstat
+ 1332  sudo mdadm --detail /dev/md12
+ 1333  sudo mdadm --stop /dev/md12
+ 1334  sudo mdadm --remove /dev/md12
+ 1335  cat /proc/mdstat
+ 1336  sudo mdadm --stop /dev/md12
+ 1337  cat /proc/mdstat
+ 1338  sudo mdadm --remove /dev/md12
+ 1339  ls -l /dev
+ 1340  ls -l /dev/md*
+ 1341  sudo rmdir /dev/md*
+ 1342  sudo rm  /dev/md*
+ 1343  ls -l /dev/md*
+ 1344  ls -l /dev/m
+ 1345  ls -l /dev/
+ 1346  clear
+ 1347  sudo fdisk -l \ grep /dev
+ 1348  sudo fdisk -l | grep /dev
+ 1349  cat /proc/mdstat
+ 1350  sudo mknod /dev/md12 b 9 0
+ 1351  sudo mdadm --stop /dev/md12
+ 1352  sudo mdadm --remove /dev/md12
+ 1353  sudo mdadm --stop /dev/md12
+ 1354  cat /proc/mdstat
+ 1355  sudo mdadm -- help
+ 1356  mdadm -- help
+ 1357  mdadm --help
+ 1358  sudo mdadm --manage /dev/md12
+ 1359  sudo mdadm --stop /dev/md12
+ 1360  sudo mdadm --monitor /dev/md12
+ 1361  ps -la
+ 1362  ps -le
+ 1363  clear
+ 1364  sudo fdisk /dev/sdb
+ 1365  sudo fdisk -l | grep /dev
+ 1366  sudo nautilus
+ 1367  clear
+ 1368  sudo fdisk -l | grep /dev
+ 1369  sudo fdisk /dev/sdb
+ 1370  clear
+ 1371  shutdown -h now
+ 1372  cat /proc/mdstat
+ 1373  sudo mdadm --detail /dev/md127
+ 1374  cat /etc/mdadm/mdadm.conf
+ 1375  clear
+ 1376  sudo mdadm --stop /dev/md127
+ 1377  sudo mdadm --remove /dev/md127
+ 1378  cat /proc/mdstat
+ 1379  sudo mdadm --detail /dev/md127
+ 1380  sudo fdisk /dev/sdb
+ 1381  sudo fdisk -l | grep /dev/sdb
+ 1382  sudo fdisk -l | grep /dev/
+ 1383  ls -l /dev/m*
+ 1384  sudo rm -r /dev/md127
+ 1385  ls -l /dev/m*
+ 1386  clear
+ 1387  sudo fdisk -l | grep /dev/
+ 1388  shutdown -h now
+ 1389  cat /proc/mdstat
+ 1390  sudo nano /etc/mtab
+ 1391  cat /etc/shadow
+ 1392  sudo cat /etc/shadow
+ 1393  sudo cat /etc/shadow | sort -t ':' -k1 
+ 1394  sudo cat /etc/shadow | sort -t ':' -k1 | top -n3
+ 1395  sudo cat /etc/shadow | sort -t ':' -k1 | top -n 3
+ 1396  sudo cat /etc/shadow | sort -t ':' -k1 | top -n
+ 1397  sudo cat /etc/shadow | sort -t ':' -k1 | top -O
+ 1398  sudo cat /etc/shadow | sort -t ':' -k1
+ 1399  sudo cat /etc/shadow | sort -t ':' -k1 | top -O
+ 1400  top -O
+ 1401  top -z
+ 1402  top -Z
+ 1403  top Z
+ 1404  top -u
+ 1405  top -u tecmint
+ 1406  top -u adrian
+ 1407  clear
+ 1408  top --help
+ 1409  sudo cat /etc/shadow | sort -t ':' -k1 | top
+ 1410  sudo cat /etc/shadow | sort -t ':' -k1 |
+ 1411  sudo cat /etc/shadow | sort -t ':' -k1 
+ 1412  sudo cat /etc/shadow | sort -t ':' -k1 | tail -n 6
+ 1413  tail main
+ 1414  tail man
+ 1415  tail ?
+ 1416  tail --help
+ 1417  clear
+ 1418  find /fstab
+ 1419  find /etc/fstab
+ 1420  find -name fstab
+ 1421  ls
+ 1422  mkdir -p raiz/adriano{prueba1,prueba2,prueba3}
+ 1423  cd raiz/adriano
+ 1424  cd raiz
+ 1425  ls
+ 1426  mkdir -p alli/carlos/{tobi,kira}
+ 1427  ls
+ 1428  tree
+ 1429  rmdir adriano{prueba1,prueba2,prueba3}
+ 1430  mkdir adriano/{prueba1,prueba2,prueba3}
+ 1431  mkdir -p adriano/{prueba1,prueba2,prueba3}
+ 1432  tree
+ 1433  cd ..
+ 1434  clear
+ 1435  pwd
+ 1436  find -name adriano
+ 1437  cd ..
+ 1438  find -name adriano
+ 1439  clear
+ 1440  cd /home
+ 1441  cd adrian
+ 1442  find -name adriano
+ 1443  find -user adrian
+ 1444  find -user adrian adriano
+ 1445  find -user adriano
+ 1446  find -name \^a*
+ 1447  find -name \^a.*
+ 1448  find -name ^a.*
+ 1449  find -name ^a*
+ 1450  find -name ^a
+ 1451  find -name '^a*'
+ 1452  find -name adriano
+ 1453  clear
+ 1454  find -name adriano
+ 1455  tail -4 /etc/passwd
+ 1456  tail -4 /etc/passwd | sort -t ':' -k4
+ 1457  tail -4 /etc/passwd | sort -t ':' -k1
+ 1458  tail -4 /etc/passwd | sort -t ':' -k5
+ 1459  pwd
+ 1460  cd Documentos
+ 1461  find *.sh
+ 1462  find proyecto/*.sh
+ 1463  cd ..
+ 1464  find Documentos/proyecto/*.sh
+ 1465  find Documentos/proyecto/^a*.sh
+ 1466  find Documentos/proyecto/^a*
+ 1467  ls
+ 1468  clear
+ 1469  mdadm --details
+ 1470  mdadm -details
+ 1471  man mdadm
+ 1472  clear
+ 1473  sudo vi /etc/fstab 
+ 1474  sudo fdiks -l
+ 1475  sudo fdisk -l
+ 1476  sudo fdisk -delete /dev/md127
+ 1477  sudo fdisk  /dev/md127
+ 1478  clear
+ 1479  mdadm --remove /dev/md127
+ 1480  sudo mdadm --remove /dev/md127
+ 1481  sudo mdadm --remove --force /dev/md127
+ 1482  sudo mdadm --remove /dev/md127
+ 1483  cat/proc/mdstat
+ 1484  cat /proc/mdstat
+ 1485  sudo mdadm --stop /dev/md127
+ 1486  cat /proc/mdstat
+ 1487  sudo mdadm --remove /dev/md127
+ 1488  sudo reboot
+ 1489  sudo gparted
+ 1490  sudo gparted &
+ 1491  cat /proc/mdstat
+ 1492  mdadm --stop /dev/md 127
+ 1493  sudo mdadm --stop /dev/md 127
+ 1494  sudo mdadm --stop /dev/md127
+ 1495  sudo mdadm --stop /dev/md 127
+ 1496  mdadm --stop /dev/md 127
+ 1497  cat /proc/mdstat
+ 1498  sudo mdadm --delete /dev/md127
+ 1499  sudo mdadm --remove /dev/md127
+ 1500  clear
+ 1501  fdisk /dev/sdb
+ 1502  sudo fdisk /dev/sdb
+ 1503  sudo fdisk /dev/sdc
+ 1504  sudo fdisk /dev/sdd
+ 1505  sudo fdisk /dev/sde
+ 1506  clear
+ 1507  sudo reboot
+ 1508  sudo gparted 
+ 1509  sudo gparted &
+ 1510  sudo gparted 
+ 1511  clear
+ 1512  /proc/mdstat
+ 1513  sudo /proc/mdstat
+ 1514  cat  /proc/mdstat
+ 1515  celar
+ 1516  clear
+ 1517  sudo mdadm --create /dev/md0 --level=raid5 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd --spare-devices=1 /dev/sde 
+ 1518  cat /proc/mdstat
+ 1519  sudo mdadm --detail /dev/md0
+ 1520  sudo mkfs.ext4 /dev/md0
+ 1521  mkdir /media/mi_raid_5
+ 1522  mkdir -p /media/mi_raid_5
+ 1523  sudo mkdir -p /media/mi_raid_5
+ 1524  clear
+ 1525  sudo nano /etc/fstab
+ 1526  mount -a /dev/md0
+ 1527  sudo mount -a /dev/md0
+ 1528  clear
+ 1529  shutdown -h now
+ 1530  pwd
+ 1531  ls
+ 1532  exit
+ 1533  cd main
+ 1534  cd man
+ 1535  id
+ 1536  clear
+ 1537  crontab -e
+ 1538  clear
+ 1539  crontab -l
+ 1540  clear
+ 1541  umask
+ 1542  umask 022
+ 1543  umask
+ 1544  umask -s 022
+ 1545  umask --help
+ 1546  umask -help
+ 1547  clear
+ 1548  umask  022
+ 1549  umask
+ 1550  umask  -S 022
+ 1551  umask
+ 1552  clear
+ 1553  grops
+ 1554  groups
+ 1555  group
+ 1556  groups
+ 1557  groups adrian
+ 1558  clear
+ 1559  ls
+ 1560  tar czvf archivo.tar.gz Documentos/*
+ 1561  ls
+ 1562  ls -l
+ 1563  cat archivo.tar.gz
+ 1564  clear
+ 1565  tar tvt archivo.tar.gz
+ 1566  tar tvf archivo.tar.gz
+ 1567  tar xzvf archivo.tar.gz
+ 1568  ls -l
+ 1569  sudo tar xzvf archivo.tar.gz
+ 1570  ls -l
+ 1571  mv archivo.tar.gz archivo.tar
+ 1572  ls -l
+ 1573  sudo nano archivo.tar
+ 1574  rm archivo.tar
+ 1575  sudo tar cvf archivo.tar Documentos/*
+ 1576  ls -l
+ 1577  ps -u
+ 1578  ps -x
+ 1579  clear
+ 1580  ps -a
+ 1581  ps -l
+ 1582  ps --forest
+ 1583  ps --forest -u
+ 1584  pstree -u
+ 1585  pstree
+ 1586  clear
+ 1587  jobs
+ 1588  pstree
+ 1589  pstree -u
+ 1590  clear
+ 1591  kill -l
+ 1592  ps -l
+ 1593  sleep 1500 &
+ 1594  kill -9 6747
+ 1595  jobs
+ 1596  sleep 1500 &
+ 1597  jobs
+ 1598  kill -19
+ 1599  kill -19 6766
+ 1600  jobs
+ 1601  kill -18 6766
+ 1602  jobs
+ 1603  ps la
+ 1604  nice
+ 1605  nice -n 5 ps la
+ 1606  renice -n 18 ps la
+ 1607  ps la
+ 1608  sleep 5000&
+ 1609  ps la
+ 1610  renice -n 18 6783
+ 1611  ps la
+ 1612  jobs
+ 1613  killall sleep
+ 1614  ps la
+ 1615  top
+ 1616  clear
+ 1617  at 
+ 1618  at echo hola bebe 5:56
+ 1619  at echo
+ 1620  at + 5 minute
+ 1621  at now + 5 minute
+ 1622  jobs
+ 1623  18.03.2019 6:05
+ 1624  at 18.03.2019 6:05
+ 1625  at --help
+ 1626  sudo nautilus
+ 1627  clear
+ 1628  sudo mdadm --detail --scan
+ 1629  cat /proc/mdstat
+ 1630  sudo fdisk
+ 1631  sudo fdisk -l
+ 1632  sudo fdisk /dev/sdb
+ 1633  uname -r
+ 1634  clear
+ 1635  uname -r
+ 1636  umask 0117
+ 1637  umask
+ 1638  umask ?
+ 1639  sudo nano /etc/apt/source.list
+ 1640  cat /etc/apt/
+ 1641  sudo nano /etc/apt/sources.list
+ 1642  sudo apt-add-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1643  sudo add-apt-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1644  cat /var/lib/apt/lists
+ 1645  ls /var/lib/apt/lists
+ 1646  sudo nano /etc/apt/sources.list
+ 1647  sudo apt-get update
+ 1648  sudo add-apt-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1649  sudo apt-get update
+ 1650  sudo nano /etc/apt/sources.list
+ 1651  sudo apt-get update
+ 1652  sudo nano /etc/apt/sources.list
+ 1653  sudo apt-get upgrade
+ 1654  sudo nano /etc/apt/sources.list
+ 1655  clear
+ 1656  sudo apt-get install wine
+ 1657  clear
+ 1658  ps
+ 1659  ps -u
+ 1660  clear
+ 1661  sudo nano /etc/apt/sources.list
+ 1662  sudo apt-get --upgradable
+ 1663  sudo apt-list --upgradable
+ 1664  apt list --installed
+ 1665  clearç
+ 1666  clear
+ 1667  sudo synaptic
+ 1668  sudo Synaptic
+ 1669  clear
+ 1670  synaptic
+ 1671  clear
+ 1672  sudo add-apt-repository http://ppa.launchpad.net/dr-akulavich/lighttable/ubuntu
+ 1673  sudo apt-get update
+ 1674  sudo apt-get install lighttable-installer
+ 1675  clear
+ 1676  sudo add-apt-repository ppa:lighttable-installer/ppa
+ 1677  sudo dpkg -i lighttable-installer
+ 1678  clear
+ 1679  sudo add-apt-repository http://ppa.launchpad.net/dr-akulavich/lighttable/ubuntu
+ 1680  sudo apt-get update
+ 1681  sudo apt-get install 
+ 1682  sudo add-apt-repository --remove ppa:dr-akulavich/lighttable
+ 1683  clear
+ 1684  sudo add-apt-repository ppa:dr-akulavich/lighttable
+ 1685  sudo apt-get update
+ 1686  sudo apt-get install lighttable-installer
+ 1687  sudo apt-get remove --purge lighttable-installer
+ 1688  sudo add-apt-repository --remove ppa:dr-akulavich/lighttable
+ 1689  cat /etc/apt/sources.list
+ 1690  sudo apt-key list
+ 1691  sudo apt-get update
+ 1692  sudo apt-key list
+ 1693  sudo apt-key del 85C79C73
+ 1694  sudo apt-key list
+ 1695  sudo apt-get update
+ 1696  suhtdown -h now
+ 1697  shutdown -h now
+ 1698  ps
+ 1699  ps -a
+ 1700  ps -u
+ 1701  ps -x
+ 1702  clear
+ 1703  ps L
+ 1704  ps -o uid,command,user,sgroup,ni
+ 1705  clear
+ 1706  ls
+ 1707  ls -l
+ 1708  ls -a
+ 1709  clear
+ 1710  cd ..
+ 1711  ls
+ 1712  cd ..
+ 1713  ls
+ 1714  rmdir md12
+ 1715  sudo rmdir md12
+ 1716  sudo rm md12
+ 1717  sudo rm md127
+ 1718  clear
+ 1719  ls -l
+ 1720  cd ..
+ 1721  ls
+ 1722  pwd
+ 1723  cd $home
+ 1724  pwd
+ 1725  ls
+ 1726  find -name alli
+ 1727  find -name alli | cut -d '/' -f3
+ 1728  find -name alli | cut -d '/' -f4
+ 1729  find -name alli | sort -t '/' -k3
+ 1730  find -name alli | pwd
+ 1731  find -name alli
+ 1732  cd ..
+ 1733  ls
+ 1734  cd ..
+ 1735  ls
+ 1736  cd alli
+ 1737  cd ..
+ 1738  ls
+ 1739  find ^a*
+ 1740  ls -a
+ 1741  cd home
+ 1742  ls -a
+ 1743  cd ..
+ 1744  ls -a
+ 1745  cd /raiz/alli
+ 1746  cd /home
+ 1747  ls
+ 1748  cd adrian
+ 1749  ls -a
+ 1750  cd raiz
+ 1751  ls
+ 1752  tree
+ 1753  mkdir -p /A/adrian/tobi{a,b,c}
+ 1754  sudo mkdir -p /A/adrian/tobi{a,b,c}
+ 1755  tree
+ 1756  mkdir -p A/adrian/tobi{a,b,c}
+ 1757  tree
+ 1758  cat /proc/mdstat
+ 1759  sudo mdadm --stop md127
+ 1760  sudo mdadm --remove md127
+ 1761  cat /proc/mdstat
+ 1762  cat /etc/mdadm/mdadm.conf
+ 1763  clear
+ 1764  cd /
+ 1765  ls
+ 1766  sudo rmdir -r A
+ 1767  sudo rmdir A
+ 1768  rmdir -r A
+ 1769  cd A
+ 1770  tree
+ 1771  sudo rmdir -r adrian
+ 1772  sudo rmdir -R adrian
+ 1773  sudo rmdir --help
+ 1774  sudo rmdir -p adrian
+ 1775  sudo rm adrian
+ 1776  sudo rm -r adrian
+ 1777  clear
+ 1778  cd ..
+ 1779  ls
+ 1780  sudo rmdir A
+ 1781  clear
+ 1782  cd /home/adrian
+ 1783  ls
+ 1784  cd raiz
+ 1785  tree
+ 1786  rmdir -r adrian
+ 1787  rm -r adrian
+ 1788  rm -r A
+ 1789  rm -r adriano
+ 1790  rm -r alli
+ 1791  tree
+ 1792  cd ..
+ 1793  ls
+ 1794  rmdir raiz
+ 1795  cd prueba
+ 1796  tree
+ 1797  rm perso.*
+ 1798  ls
+ 1799  clear
+ 1800  pwd
+ 1801  mkdir Documentos/perso
+ 1802  cd ..
+ 1803  ls
+ 1804  mkdir perso
+ 1805  mv peso /prueba
+ 1806  cat perso
+ 1807  ls
+ 1808  cat perso.txt
+ 1809  ls
+ 1810  rmdir perso
+ 1811  clear
+ 1812  nano perso.txt
+ 1813  cp perso.txt /prueba
+ 1814  ls
+ 1815  cp perso.txt prueba
+ 1816  cp a pruena
+ 1817  cp a prueba
+ 1818  cd /home/adrian/Documentos/prueba
+ 1819  cd /home/adrian/prueba
+ 1820  clear
+ 1821  cd ..
+ 1822  ls
+ 1823  rm perso.txt
+ 1824  rm prueba
+ 1825  rm -r prueba
+ 1826  clear
+ 1827  ls
+ 1828  cd ,,
+ 1829  cd ..
+ 1830  clear
+ 1831  cd /
+ 1832  cd $home
+ 1833  clear
+ 1834  pwd
+ 1835  mkdir prueba
+ 1836  nano /home/adrian/Documentos/perso.txt
+ 1837  cd Documentos
+ 1838  cp perso.txt $home
+ 1839  cp perso.txt /$home
+ 1840  cd $home
+ 1841  mkdir sistemas
+ 1842  mkdir ejercicios; cd ejercicios; mkdir programacion
+ 1843  tree
+ 1844  rm -r ejercicios/programacion
+ 1845  mkdir ejercicios/programacion
+ 1846  mrdir -p ejercicios/programacion
+ 1847  rmdir -r ejercicios/programacion
+ 1848  rmdir -p ejercicios/programacion
+ 1849  clear
+ 1850  tree
+ 1851  ls
+ 1852  cd ..
+ 1853  ls
+ 1854  cd $home
+ 1855  pwd
+ 1856  clear
+ 1857  mkdir -p ejercicios/programacion
+ 1858  ls /
+ 1859  ls /usr/bin/d*
+ 1860  ls -R /etc
+ 1861  clear
+ 1862  ls -R /etc
+ 1863  ls -R /etc | less
+ 1864  ls
+ 1865  cd $home
+ 1866  ls
+ 1867  cd ..
+ 1868  ls
+ 1869  cd adrian
+ 1870  nano sistemas/alumno.tx{1.txt,2.txt}
+ 1871  ls
+ 1872  mkdir sistemas/lista,lustro,lastre
+ 1873  tree sistemas
+ 1874  rmdir sistemas/lista,lustro.lastre
+ 1875  rmdir sistemas/lista,lustro,lastre
+ 1876  mkdir sistemas/lista lustro lastre
+ 1877  tree sistemas
+ 1878  ls sistemas
+ 1879  ls
+ 1880  mrdir lastre
+ 1881  rmdir lastre
+ 1882  rmdir lustro
+ 1883  clear
+ 1884  ls
+ 1885  ls sistemas
+ 1886  mkdir sistemas/lastre; sistemas/lustro
+ 1887  mkdir sistemas/lastre; mkdir sistemas/lustro
+ 1888  mkdir sistemas/lustro; mkdir sistemas/ad
+ 1889  ls sistemas
+ 1890  nano sistemas/alumno.tx{1.txt,2.txt}
+ 1891  ls sistemas
+ 1892  sudo nano a.txt;sudo b.txt; sudo c.txt
+ 1893  nano b.txt; nano c.txt
+ 1894  ls
+ 1895  ls -l
+ 1896  ls -l | sort -t ' ' -k9
+ 1897  clear
+ 1898  ls
+ 1899  rm *.txt
+ 1900  ls
+ 1901  cd ..
+ 1902  ls
+ 1903  cd adrian/sistemas
+ 1904  ls
+ 1905  rmdir ad
+ 1906  sudo nano alumno.txt
+ 1907  ls
+ 1908  sudo nano alumno.txt
+ 1909  ls
+ 1910  sudo nano a.txt; b.txt;sudo nano c.txt
+ 1911  ls
+ 1912  ls -l
+ 1913  chown adrian a.txt
+ 1914  sudo chown adrian a.txt
+ 1915  sudo chown adrian:adrian alumno.txt
+ 1916  ls -l
+ 1917  grep --help
+ 1918  sudo fdisk -l \ grep /dev
+ 1919  sudo fdisk -l | grep /dev
+ 1920  sudo fdisk -l | grep -o /dev
+ 1921  sudo fdisk -l | grep 'e$'
+ 1922  sudo fdisk -l |
+ 1923  sudo fdisk -l
+ 1924  sudo fdisk -l | grep 'e$'
+ 1925  sudo fdisk -l | grep 'v$'
+ 1926  sudo fdisk -l | grep 'ev$'
+ 1927  sudo fdisk -l | grep 's$'
+ 1928  sudo fdisk -l | grep 'sd'
+ 1929  sudo fdisk -l | grep (sd)
+ 1930  sudo fdisk -l | grep ('sd')
+ 1931  sudo fdisk -l | grep (sd\)
+ 1932  sudo fdisk -l | grep (sd)\
+ 1933  sudo fdisk -l | grep (sd)/
+ 1934  clear
+ 1935  sudo fdisk -l | grep 'sd'
+ 1936  sudo fdisk -l | grep -o /dev
+ 1937  sudo fdisk -l | grep -o '/dev'
+ 1938  sudo fdisk -l | grep -o 'dev'
+ 1939  sudo fdisk -l | grep -o 'dev/sdb1'
+ 1940  sudo fdisk -l | grep -o '/dev/sdb1'
+ 1941  sudo fdisk -l | 
+ 1942  sudo fdisk -l | grep  '/dev/sdb1'
+ 1943  sudo fdisk -l | grep  '/dev/sdb'
+ 1944  sudo fdisk -l | grep  -o '/dev/sdb'
+ 1945  cd ..
+ 1946  ls
+ 1947  cd dev
+ 1948  ls
+ 1949  ls -l
+ 1950  ls -l | grep ^b-c
+ 1951  ls -l | grep ^b-c*
+ 1952  ls -l | grep ^b*
+ 1953  ls -l | grep ^b-c
+ 1954  ls -l | grep ^[b-c]
+ 1955  ls -
+ 1956  ls -l $HOME
+ 1957  ls -l
+ 1958  cat input/mice | xxd
+ 1959  sudo cat input/mice | xxd
+ 1960  sudo cat input/mice
+ 1961  sudo cat input/mice | xxd
+ 1962  cd input
+ 1963  ls
+ 1964  sudo cat event0
+ 1965  sudo cat event1
+ 1966  sudo cat mouse0 
+ 1967  sudo cat mouse1
+ 1968  cd by-path/
+ 1969  ls
+ 1970  sudo cat pci-0000\:00\:04.0-mouse 
+ 1971  sudo cat pci-0000\:00\:04.0-mouse | xxd
+ 1972  ls
+ 1973  sudo cat pci-0000\:00\:04.0-mouse | xxd
+ 1974  cd ../..
+ 1975  cdpts/n
+ 1976  cd pts/n
+ 1977  cd pts
+ 1978  ls
+ 1979  tyy
+ 1980  tty
+ 1981  cd ..
+ 1982  ls 
+ 1983  ls -l | grep $n*,N*
+ 1984  ls -l | grep $n*
+ 1985  sudo ls -l | grep $n*
+ 1986  sudo ls -l | grep n*$
+ 1987  tty
+ 1988  ls -l /ttyN
+ 1989  ls -l /tty
+ 1990  ifconfig
+ 1991  sudo ssh -p george 172.29.18.4
+ 1992  sudo ssh -p 22 diego 172.29.18.52
+ 1993  ifconfig
+ 1994  reebot
+ 1995  reboot
+ 1996  shutdown -h now
+ 1997  cd Documento
+ 1998  cd Documentos
+ 1999  cd proyecto
+ 2000  ls -la
+ 2001  git init
+ 2002  git remote add origin https://github.com/adrivv/proyecto.git
+ 2003  git pull master
+ 2004  git add.
+ 2005  git add
+ 2006  git add .
+ 2007  sudo git add .
+ 2008  git status
+ 2009  git -m "archivos mi proyecto"
+ 2010  git commit -m "archivos mi proyecto"
+ 2011  git status
+ 2012  git push origin master
+ 2013  git config --global credential.helper cache
+ 2014  git pull origin master
+ 2015  gedit  .gitignore
+ 2016  gedit .gitignore
+ 2017  ls
+ 2018  ls -la
+ 2019  git add gitignore
+ 2020  git add .gitignore
+ 2021  git commit -m "archivo ignorados"
+ 2022  git status
+ 2023  git push origin master
+ 2024  git tag
+ 2025  git tag -a v.0 -m 'Tag Inicial proyecto linux'
+ 2026  git tag
+ 2027  git push origin master --tags
+ 2028  git tag show v.0
+ 2029  git show v.0
+ 2030  git branch
+ 2031  git status
+ 2032  git add . && commit -m "mi Informacion 2" && push origin master
+ 2033  sudo git add . && commit -m "mi Informacion 2" && push origin master
+ 2034  cd ..
+ 2035  cd prolinux
+ 2036  ls -la
+ 2037  cd ..
+ 2038  ls -la
+ 2039  copy -r proyecto proyecto2
+ 2040  sudo copy -R proyecto proyecto2
+ 2041  sudo copy  proyecto proyecto2
+ 2042  copy --help
+ 2043  sudo mv  proyecto proyecto2
+ 2044  ls -la
+ 2045  sudo mv  proyecto2 proyecto
+ 2046  ls -la
+ 2047  history
+ 2048  history >> comando_git.txt
